@@ -119,6 +119,7 @@ PatchPilot is strongest as a continuous improvement layer for work such as:
 - preparing useful changes from any device, then handing them to a full coding agent or human reviewer
 
 The goal is not to imitate a complete local development environment. The goal is to make small, meaningful GitHub contributions easier to prepare, review, and continue.
+
 ## How it works
 
 ```mermaid
@@ -573,6 +574,7 @@ Please use it thoughtfully:
 - remember that model, tool, and plan limits can change and are never guaranteed to be unlimited
 
 Generous limits are an opportunity to build responsibly. They are not a reason to create artificial activity or bypass platform safeguards.
+
 ## Limitations
 
 PatchPilot remains subject to the tools available inside the ChatGPT conversation.
@@ -638,7 +640,8 @@ longer answers.
   and other reviewable repository work that can be prepared from ChatGPT Web.
 - **Is PatchPilot unlimited?** No. It depends on the models, tools,
   account plan, workspace rules, and service limits available at the time.
-  Use it responsibly and never treat generous limits as permission for abuse.- **Does PatchPilot merge pull requests?** No. It opens pull requests
+  Use it responsibly and never treat generous limits as permission for abuse.
+- **Does PatchPilot merge pull requests?** No. It opens pull requests
   and hands them off. The merge decision belongs to a separate coding
   agent or a human maintainer.
 - **Does it work with Claude, Cursor, or Aider?** The system prompt
