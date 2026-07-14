@@ -24,12 +24,14 @@
 
 <p>
   <a href="#why-patchpilot">Why</a> ·
+  <a href="#built-for-continuous-open-source-work">Use case</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#included-files">Files</a> ·
   <a href="#tooling">Tooling</a> ·
   <a href="#examples">Examples</a> ·
   <a href="#recommended-workflow">Workflow</a> ·
+  <a href="#responsible-use">Responsible use</a> ·
   <a href="#limitations">Limitations</a> ·
   <a href="./FAQ.md">FAQ</a>
 </p>
@@ -93,6 +95,30 @@ Without clear operating rules, a chat may:
 - treat a backlog item as proof that a feature exists
 
 PatchPilot adds the missing guardrails and task-specific playbooks.
+
+
+## Built for continuous open-source work
+
+PatchPilot grew from a simple working habit: I am always improving workflows, skills, documentation, open-source tools, playbooks, and small repository changes directly on GitHub.
+
+I wanted a practical way to inspect a repository, make a focused improvement, and open a reviewable PR even when I am away from a full local coding setup. ChatGPT Web became the most useful place for that workflow. Its connected GitHub tools, broad reasoning context, and generous interactive limits make it possible to keep building and maintaining useful open-source work from almost anywhere.
+
+A sincere thank you to OpenAI for providing limits generous enough to make this kind of creative and technical workflow practical.
+
+### Primary use case
+
+PatchPilot is strongest as a continuous improvement layer for work such as:
+
+- refining agent workflows, system prompts, and reusable skills
+- improving documentation, examples, onboarding, and internal links
+- maintaining GitHub Actions and repository automation
+- fixing bounded bugs and adding regression coverage
+- building small open-source utilities and developer tools
+- developing practical playbooks and knowledge packs
+- converting clear backlog items into focused pull requests
+- preparing useful changes from any device, then handing them to a full coding agent or human reviewer
+
+The goal is not to imitate a complete local development environment. The goal is to make small, meaningful GitHub contributions easier to prepare, review, and continue.
 
 ## How it works
 
@@ -532,6 +558,23 @@ To add a new preset, follow the pattern in
   or human maintainer must follow when working on this repository
 - [CHANGELOG.md](./CHANGELOG.md) - version history
 
+## Responsible use
+
+PatchPilot should be used to create useful work, not to maximize requests, commits, or platform consumption.
+
+Please use it thoughtfully:
+
+- follow OpenAI's terms and the policies of every connected service
+- respect repository rules, maintainer time, and organization permissions
+- do not use it to evade rate limits or automate abusive activity
+- prefer a few meaningful commits over manufactured commit volume
+- avoid unsolicited bulk pull requests or low-quality repository noise
+- keep scopes bounded, reviewable, and independently verified
+- use least-privilege GitHub access and keep write confirmations enabled where available
+- remember that model, tool, and plan limits can change and are never guaranteed to be unlimited
+
+Generous limits are an opportunity to build responsibly. They are not a reason to create artificial activity or bypass platform safeguards.
+
 ## Limitations
 
 PatchPilot remains subject to the tools available inside the ChatGPT conversation.
@@ -592,6 +635,12 @@ longer answers.
 - **What is PatchPilot?** A documentation and prompt-engineering kit
   that turns a ChatGPT Web Project into a focused pull-request
   creation layer. No runtime, no daemon, no hosted service.
+- **What is the primary use case?** Continuous, focused improvements to
+  workflows, skills, documentation, open-source tools, playbooks, tests,
+  and other reviewable repository work that can be prepared from ChatGPT Web.
+- **Is PatchPilot unlimited?** No. It depends on the models, tools,
+  account plan, workspace rules, and service limits available at the time.
+  Use it responsibly and never treat generous limits as permission for abuse.
 - **Does PatchPilot merge pull requests?** No. It opens pull requests
   and hands them off. The merge decision belongs to a separate coding
   agent or a human maintainer.
