@@ -47,7 +47,28 @@ Use this to attach a clean zip to a GitHub release. The build is
 deliberately separate from CI; the validation workflow only checks the
 kit, not the archive.
 
+## `build_social_preview.py`
+
+```bash
+python3 scripts/build_social_preview.py
+```
+
+Regenerates the 1280x640 GitHub social preview image at
+`.github/social-preview.png`. The image uses a dark navy background
+with the brand mark, a one-line subtitle, a workflow pill, and a
+small pull-request diagram on the right.
+
+GitHub does not expose the social preview upload via the REST API, so
+the file is committed to the repo and uploaded manually from
+`Settings -> General -> Social preview`. Re-running the script
+overwrites the file in place.
+
+The script depends only on Pillow. It hardcodes paths to
+`/System/Library/Fonts/Helvetica.ttc`; on Linux or Windows you should
+swap the font path in the script or set the `PIL` font search path.
+
 ## Requirements
 
 - Python 3.9 or newer
-- No third-party dependencies
+- Pillow (only for `build_social_preview.py`)
+- No third-party dependencies for the other scripts
