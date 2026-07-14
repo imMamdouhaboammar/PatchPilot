@@ -1,0 +1,5 @@
+# CODEOWNERS
+# Patches to the kit core require review from a maintainer.
+# Pull requests that do not have an approval from a code owner cannot merge.
+
+*       @imMamdouhaboammar

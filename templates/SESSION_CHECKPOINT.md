@@ -1,0 +1,23 @@
+# Session Checkpoint
+
+- Repository:
+- Visibility:
+- Default branch:
+- Starting default-branch SHA:
+- Current default-branch SHA:
+- Working branch:
+- Current branch SHA:
+- Task scope:
+- Explicitly untouched scope:
+- Repository instructions read:
+- Architecture docs read:
+- Important files and symbols inspected:
+- Active issues or PRs affecting the task:
+- Decisions and reasons:
+- Commits created:
+- PR link and state:
+- Commands and checks executed:
+- CI state for current SHA:
+- Failed or unavailable validation:
+- Known risks or blockers:
+- Exact next action:
