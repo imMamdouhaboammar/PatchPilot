@@ -38,6 +38,34 @@
 
 </div>
 
+<!-- project-story:start -->
+<details open>
+  <summary><strong>Why I built PatchPilot</strong></summary>
+  <br />
+  <table>
+    <tr>
+      <td width="118" align="center" valign="top">
+        <img src="./assets/readme/project-mark.svg" width="88" alt="PatchPilot repository mark" />
+      </td>
+      <td valign="top">
+        <p><strong>What is PatchPilot?</strong> A PR-only operating kit for disciplined GitHub repository work from ChatGPT Web.</p>
+        <p><strong>Built from a recurring problem:</strong> Chat-based repository work can touch default branches, mix unrelated changes, or claim tests without evidence when the operating boundary is vague.</p>
+        <p><strong>Practical goal:</strong> Make ChatGPT inspect live repository state, create focused branches and commits, open review-ready pull requests, and stop before merge.</p>
+        <p><strong>Who it is for:</strong> Open-source maintainers and developers preparing bounded GitHub changes from ChatGPT Web.</p>
+        <p><strong>Topics:</strong> ChatGPT GitHub coding agent · PR only AI agent · review ready pull requests · GitHub workflow guardrails</p>
+      </td>
+    </tr>
+  </table>
+  <p><strong>Daily development summary</strong></p>
+  <ul>
+      <li>No public repository changes were recorded in the last 7 days.</li>
+      <li>The project purpose and documented usage remain unchanged.</li>
+      <li>The next update will appear automatically when public activity is detected.</li>
+  </ul>
+  <p><sub>Updated 2026-07-26T06:35:07.959Z · Deterministic public-activity summary</sub></p>
+</details>
+<!-- project-story:end -->
+
 ---
 
 ## What's new in 1.1.0
