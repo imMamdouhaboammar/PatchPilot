@@ -4,7 +4,7 @@
 - Package version: 1.1.0
 - System prompt characters: 7373
 - Character limit: less than 8,000
-- Total declared files: 50
+- Total declared files: 52
 - Markdown skills, templates, prompts, examples, docs: 41
 - README internal links checked: 30
 - Missing declared files: 0

@@ -41,6 +41,7 @@
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/ISSUE_TEMPLATE/skill_request.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/social-preview.png",
     ".github/workflows/validate-pack.yml",
     "docs/INTEGRATION.md",
     "docs/README.md",
@@ -56,6 +57,7 @@
     "prompts/PR_REPAIR.md",
     "prompts/REPOSITORY_ONBOARDING.md",
     "scripts/README.md",
+    "scripts/build_social_preview.py",
     "scripts/build_zip.py",
     "scripts/validate_pack.py",
     "skills/ARCHITECTURE_ANALYSIS.md",
@@ -73,9 +75,11 @@
     "templates/TASK_BRIEF.md",
     "templates/VERIFICATION_HANDOFF.md"
   ],
-  "total_files": 50,
+  "total_files": 52,
   "validation_script": "scripts/validate_pack.py",
   "build_script": "scripts/build_zip.py",
+  "social_preview_script": "scripts/build_social_preview.py",
+  "social_preview_image": ".github/social-preview.png",
   "ci_workflow": ".github/workflows/validate-pack.yml",
   "description": "A ChatGPT Project kit for creating focused GitHub pull requests without direct merges. Ships with skills, templates, prompts, stack-specific examples, a Python validation script, and a release zip builder."
 }
