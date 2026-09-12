@@ -63,7 +63,7 @@
   <ul>
       <li>1 commit landed: feat(assets): add PatchPilot social preview image and builder (#3).</li>
       <li>1 pull request updated, led by #3: feat(assets): add PatchPilot social preview image and builder.</li>
-      <li>Daily summary covers 2 public activity items from the last 1 day.</li>
+      <li>Daily summary covers 2 public activity items from the last 7 days.</li>
   </ul>
 </details>
 <!-- project-story:end -->
